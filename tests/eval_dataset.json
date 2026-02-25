@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eval_001",
+    "question": "What is the average tax owed for Corporation taxpayers?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Corporation", "average", "$"],
+    "category": "csv_aggregate",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_002",
+    "question": "What is the average tax rate for Individual taxpayers in California?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Individual", "California", "%"],
+    "category": "csv_filtered",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_003",
+    "question": "Which income source generates the highest total income?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["income source", "total"],
+    "category": "csv_aggregate",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_004",
+    "question": "What was the average tax owed by Partnerships in 2022?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Partnership", "2022"],
+    "category": "csv_filtered",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_005",
+    "question": "Explain the impact of an excise tax on a market with inelastic demand",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["inelastic", "demand", "tax"],
+    "category": "conceptual",
+    "requires_graph": false
+  },
+  {
+    "id": "eval_006",
+    "question": "What does the financial presentation say about tax revenues?",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["tax", "revenue"],
+    "category": "conceptual",
+    "requires_graph": false
+  },
+  {
+    "id": "eval_007",
+    "question": "What are the US federal marginal tax rates?",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["marginal", "tax", "rate", "%"],
+    "category": "policy",
+    "requires_graph": false
+  },
+  {
+    "id": "eval_008",
+    "question": "How does demand elasticity affect the tax burden between consumers and producers?",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["elastic", "consumer", "producer", "burden"],
+    "category": "conceptual",
+    "requires_graph": false
+  },
+  {
+    "id": "eval_009",
+    "question": "What deduction type is most common among Non-Profit taxpayers?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Non-Profit", "deduction"],
+    "category": "csv_aggregate",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_010",
+    "question": "Compare average taxable income between Trusts and Individuals",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Trust", "Individual", "taxable income"],
+    "category": "csv_comparison",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_011",
+    "question": "What is the total tax owed by all taxpayers in Florida?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Florida", "tax"],
+    "category": "csv_filtered",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_012",
+    "question": "How does an excise tax create a deadweight loss?",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["deadweight", "welfare", "loss"],
+    "category": "conceptual",
+    "requires_graph": false
+  },
+  {
+    "id": "eval_013",
+    "question": "What is the average tax rate across all taxpayer types in 2020?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["2020", "tax rate", "%"],
+    "category": "csv_aggregate",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_014",
+    "question": "What income sources do Corporations most commonly report?",
+    "expected_sources": ["csv"],
+    "expected_contains": ["Corporation"],
+    "category": "csv_aggregate",
+    "requires_graph": true
+  },
+  {
+    "id": "eval_015",
+    "question": "Explain the Laffer curve concept in relation to tax rates and growth",
+    "expected_sources": ["presentation"],
+    "expected_contains": ["tax", "rate", "growth"],
+    "category": "policy",
+    "requires_graph": false
+  }
+]
