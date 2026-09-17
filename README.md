@@ -1,4 +1,4 @@
-# TaxGPT Financial Chatbot — BE Assignment
+# TaxGPT Financial Chatbot
 
 **Author:** Avnish Pandey / https://www.linkedin.com/in/avnishpandey/
 
